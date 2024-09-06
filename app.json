@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "FoodDeliveryApp",
-    "slug": "FoodDeliveryApp",
+    "slug": "fooddeliveryapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.akramjondev.fooddeliveryapp"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "ddcccbf4-93dd-4e2d-9750-2f7d76b870e7"
+      }
+    },
+    "owner": "akramjondev"
   }
 }
